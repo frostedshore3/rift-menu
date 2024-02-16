@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A0C29DB1-0759-4711-8ED9-4ABCA1949DBB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ShibaGT Template</RootNamespace>
+    <AssemblyName>ShibaGT Template</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony" />
+    <Reference Include="Assembly-CSharp" />
+    <Reference Include="BepInEx" />
+    <Reference Include="MonoMod.Utils" />
+    <Reference Include="Photon3Unity3D" />
+    <Reference Include="PhotonRealtime" />
+    <Reference Include="PhotonUnityNetworking" />
+    <Reference Include="SteamVR" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="UnityEngine.CoreModule" />
+    <Reference Include="UnityEngine.PhysicsModule" />
+    <Reference Include="UnityEngine.TextRenderingModule" />
+    <Reference Include="UnityEngine.UI" />
+    <Reference Include="UnityEngine.UIModule" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="-Module-.cs" />
+    <Compile Include="ArgumentAddingDuplicatePointer.cs" />
+    <Compile Include="BtnCollider.cs" />
+    <Compile Include="CreateSHAAsDecimal.cs" />
+    <Compile Include="dark\efijiPOIWikjek\RigShit.cs" />
+    <Compile Include="EntryPointEntryFieldIdIsAssembly.cs" />
+    <Compile Include="EventFieldFormatsetResponseXmlNamespace.cs" />
+    <Compile Include="getConfigurationPMDesignator.cs" />
+    <Compile Include="getSchemaVersionSTOREASSEMBLY.cs" />
+    <Compile Include="GTAG_NotificationLib\NotifiLib.cs" />
+    <Compile Include="InterfaceForwardingSupportFileIOPermissionAccess.cs" />
+    <Compile Include="Loading\l.cs" />
+    <Compile Include="MayCorruptProcessReAllocCoTaskMem.cs" />
+    <Compile Include="NameCacheThread.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="setSelfAffectingThreadinggetIsPrivate.cs" />
+    <Compile Include="ShibaGTTemplate\Backend\a.cs" />
+    <Compile Include="ShibaGTTemplate\Backend\a1.cs" />
+    <Compile Include="ShibaGTTemplate\Backend\aa.cs" />
+    <Compile Include="ShibaGTTemplate\Backend\aad.cs" />
+    <Compile Include="ShibaGTTemplate\Backend\ad.cs" />
+    <Compile Include="ShibaGTTemplate\Backend\anticheatnotif.cs" />
+    <Compile Include="ShibaGTTemplate\Backend\c.cs" />
+    <Compile Include="ShibaGTTemplate\Backend\cc.cs" />
+    <Compile Include="ShibaGTTemplate\Backend\cy.cs" />
+    <Compile Include="ShibaGTTemplate\Backend\fun.cs" />
+    <Compile Include="ShibaGTTemplate\Backend\ineedhelp.cs" />
+    <Compile Include="ShibaGTTemplate\Backend\ll.cs" />
+    <Compile Include="ShibaGTTemplate\Backend\OnLeave.cs" />
+    <Compile Include="ShibaGTTemplate\Backend\pl.cs" />
+    <Compile Include="ShibaGTTemplate\Backend\pla.cs" />
+    <Compile Include="ShibaGTTemplate\Backend\plddd.cs" />
+    <Compile Include="ShibaGTTemplate\Backend\plddd2.cs" />
+    <Compile Include="ShibaGTTemplate\Backend\skidder.cs" />
+    <Compile Include="ShibaGTTemplate\Backend\t.cs" />
+    <Compile Include="ShibaGTTemplate\Plugin.cs" />
+    <Compile Include="ShibaGTTemplate\UI\ButtonInfo.cs" />
+    <Compile Include="ShibaGTTemplate\UI\buttons.cs" />
+    <Compile Include="ShibaGTTemplate\UI\main.cs" />
+    <Compile Include="ShibaGTTemplate\UI\tooltipnotis.cs" />
+    <Compile Include="ShibaGTTemplate\UpdatePatch.cs" />
+    <Compile Include="ShibaGTTemplate\Utilities\ColorChanger.cs" />
+    <Compile Include="ShibaGTTemplate\Utilities\TimedBehaviour.cs" />
+    <Compile Include="ShiftGetDeclaredMethodsd.cs" />
+    <Compile Include="StatusLevelDeny.cs" />
+    <Compile Include="TargetInvocationExceptionGetOneYearLocalFromUtc.cs" />
+    <Compile Include="ToXmlStringgetActor.cs" />
+    <Compile Include="zz.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
